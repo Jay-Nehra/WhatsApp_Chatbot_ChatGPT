@@ -41,7 +41,7 @@ Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
-Usage
+## Usage
 1. Set up your environment variables for Twilio and OpenAI API keys.
 
 2. un the Flask app:
@@ -51,27 +51,27 @@ flask run
 ```
 3. Use your WhatsApp to interact with the bot by sending a message to the Twilio phone number.
 
-Database
+## Database
 We use TinyDB as an in-memory database to store conversations. The database is stored in the tmp directory.
 
-Environment Variables
+## Environment Variables
 1. OPENAI_API_KEY: Your OpenAI API Key
 2. TWILIO_ACCOUNT_SID: Your Twilio Account SID
 3. TWILIO_AUTH_TOKEN: Your Twilio Auth Token
 
-Testing
+## Testing
 To run tests, execute:
 
 ```bash
 pytest
 ```
-Contributing
+## Contributing
 Feel free to contribute to this project. Create issues, feature requests or pull requests.
 
-License
+## License
 MIT License. See LICENSE for more information.
 
-Acknowledgments
+## Acknowledgments
 OpenAI for their conversational model
 Twilio for their messaging API
 Flask for the web framework
